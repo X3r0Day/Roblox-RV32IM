@@ -1,0 +1,46 @@
+{
+    "name": "RISCV",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "RiscV": {
+                "$className": "Folder",
+                "CPU": {
+                    "$path": "src/RiscV/CPU.lua"
+                },
+                "Parser": {
+                    "$path": "src/RiscV/Parser.lua"
+                },
+                "Programs": {
+                    "$path": "src/RiscV/Programs.lua"
+                },
+                "Spec": {
+                    "$path": "src/RiscV/Spec.lua"
+                },
+                "UserPrograms": {
+                    "$path": "src/RiscV/UserPrograms.lua"
+                }
+            }
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "Main.server": {
+                "$path": "src/Main.server.lua"
+            }
+        },
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "$path": "src/Client"
+            }
+        },
+        "Players": {
+            "$className": "Players",
+            "$properties": {
+                "CharacterAutoLoads": false
+            }
+        }
+    }
+}
