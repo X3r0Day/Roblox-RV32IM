@@ -4,11 +4,11 @@ RISC-V emulator that runs entirely inside Roblox. Written in Luau. No external s
 
 Implements the full RV32IM instruction set (base integer + multiply/divide). Comes with a built-in assembler and a fullscreen IDE so you can write and run assembly right in-game.
 
+Grab the `.rbxl` file from [Releases](https://github.com/X3r0Day/Roblox-RV32IM/releases/tag/v1.0) and open it in Roblox Studio.
+
 ## What this is
 
-When you join the game there's no character, no world, just the code editor. You write RISC-V assembly, click Run, and it assembles + executes your code right there. Output shows up in the terminal below.
-
-There are tabs for switching between different programs, and after your code runs you can check the register and memory state.
+Fullscreen code editor that opens when you join. Write RISC-V assembly, hit Run, output goes to the terminal panel at the bottom. Tabs let you switch between programs. After execution, you can view register values and memory contents in separate tabs.
 
 ## The Assembler
 
